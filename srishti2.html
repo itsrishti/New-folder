@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: beige;
+            padding: 10px;
+        }
+        .grid item{
+            background-color: aqua;
+            padding: 20px ;
+            border: 1px solid black;
+            font-size: medium;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class=" grid container">
+        <div class="grid item"> 1</div>
+ <div class="grid item">2</div> 
+ <div class="grid item">3</div>
+        <div class="grid item">4</div>
+        <div class="grid item">5</div>
+        <div class="grid item">6<div>
+            <div class="griditem" id="child">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique illum dolorem sequi, laboriosam, optio consequatur iure architecto non incidunt at minus explicabo exercitationem. Amet, obcaecati unde! Rem, modi! Ipsa, tenetur!</div>
+    </div>
+
+    <script>
+        console.log("window=" ,window)
+        let name = document.getElementById("child").innerHTML= "child"
+        console.log(name)
+    </script>
+    
+
+    
+</body>
+</html>
